@@ -43,8 +43,6 @@ Vous pouvez personnaliser les paramètres via un fichier `config.json` :
 
 ```json
 {
-  "source": "chemin/vers/source",
-  "destination": "chemin/vers/destination",
-  "overwrite": true,
-  "logFile": "install_log.txt"
+  "default_segments": 4,
+  "temp_dir": "data/temp/"
 }
